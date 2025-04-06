@@ -1,4 +1,3 @@
-enter this code their:
 # ----- Core Libraries -----
 import os
 import pandas as pd
@@ -536,3 +535,4 @@ if _name_ == '_main_':
         # but should be False in a production environment.
         # host='0.0.0.0' makes the server accessible on your network,
         # use '127.0.0.1' (default) for local access only.
+        app.run(debug=True, host='localhost', port=5001)
